@@ -22,4 +22,5 @@
 |    事件分发    |                                                              |      |
 |     Build      | 1.Gradle<br />2.debug/release配置<br />3.多渠道打包<br />4.ASM<br />5.keystore file<br />6.App Bundle<br />7.多渠道打包 |      |
 |    Security    | 1.Encrypt/Decrypt<br />2.Proguard<br />3.R8                  |      |
+|                | <img width=600/>                                             |      |
 
