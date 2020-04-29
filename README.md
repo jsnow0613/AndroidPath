@@ -13,7 +13,7 @@
 | :-------------: | :----------------------------------------------------------- | :--------------: |
 | Android Studio  | 1.插件<br />2.快捷键<br />3.常用功能学习                     |                  |
 |    四大组件     | 1.[Activity](./article/四大组件/Activity/Activity的知识总结.md)<br />2.Service<br />3.BroadcastReceiver<br />4.ContentProvider |                  |
-|      控件       | 1.简单控件<br />2.Dialog<br />3.PopWindow<br />4.Notification<br />5.RecycleView<br />6.ViewPager2<br />7.WebView |                  |
+|      控件       | 1.简单控件<br />2.Dialog<br />3.PopWindow<br />4.Notification<br />5.RecycleView<br />6.ViewPager2<br />7.WebView<br />8.[Fragment](./article/UI/Fragment/Fragment.md) |                  |
 |      动画       |                                                              |                  |
 |   自定义View    | 1.Canvas<br />2.Bitmap<br />3.Paint                          |                  |
 |   UI Resource   | 1.Drawable<br />2.String<br />3.Style                        |                  |
