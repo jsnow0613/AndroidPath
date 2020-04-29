@@ -1,14 +1,8 @@
-# Activity的知识总结
+### Activity的知识总结
 
 ## 前言
 
 Activity是我们最常见到，也接触最多的一个组件，也是与用户交互最直接的功能，这篇文章总结了Activity的相关知识点
-
-结构目录：
-
-- 生命周期
-- 启动模式
-- Activity之间的跳转
 
 
 
@@ -91,13 +85,15 @@ App从后台切换到前台时
 
 
 
-### 1.3	Task
+## 二、Task
 
 > 任务是用户在执行某项工作时与之互动的一系列 Activity 的集合。
 
 这是官方文档对task的解释，task使用栈的形式来管理activity，一个App可以不止一个task
 
-### 1.4	启动模式
+
+
+## 三、启动模式
 
 当Activity A启动Activity B时，新的Activity B会进入栈顶并获得焦点，Activity A仍会保留在栈中，当B销毁时，A会再次处于栈顶状态，Activity的栈遵从**“先进后出”**的运作方式，参考官方图：
 
@@ -105,15 +101,15 @@ App从后台切换到前台时
 
 
 
-#### 1.4.1	standard（默认）
+#### 3.1	standard（默认）
 
 默认值。系统在启动该 Activity 的任务中创建 Activity 的新实例，并将 intent 传送给该实例。Activity 可以多次实例化，每个实例可以属于不同的任务，一个任务可以拥有多个实例。
 
-#### 1.4.2	singleTop
+#### 3.2	singleTop
 
 如果当前任务的顶部已存在 Activity 的实例，则系统会通过调用其 `onNewIntent()` 方法来将 intent 转送给该实例，而不是创建 Activity 的新实例。Activity 可以多次实例化，每个实例可以属于不同的任务，一个任务可以拥有多个实例（但前提是返回堆栈顶部的 Activity 不是该 Activity 的现有实例）。
 
-#### 1.4.3	singleTask
+#### 3.3	singleTask
 
 1. 判断是否设置了独立的taskAffinity属性值，若没有，它会在已有的任务中查看是否已经存在相应的Activity实例，如果存在，就会把位于这个Activity实例上面的Activity全部结束掉，即最终这个Activity实例会位于任务的堆栈顶端中。
 2. 若设置了独立的taskAffinity属性值，就会在新任务中启动。因此，如果我们想要设置了"singleTask"启动模式的Activity在新的任务中启动，就要为它设置一个独立的taskAffinity属性值。
@@ -121,13 +117,13 @@ App从后台切换到前台时
 
 ![backstack_singletask_multiactivity](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge84jg9v18j30fa08l0tc.jpg)
 
-#### 1.4.4	singleInstance
+#### 3.4	singleInstance
 
 与 "singleTask" 相似，唯一不同的是系统不会将任何其他 Activity 启动到包含该实例的任务中。该 Activity 始终是其任务唯一的成员；由该 Activity 启动的任何 Activity 都会在其他的任务中打开。
 
 
 
-#### 参考
+### 参考
 
 1. https://developer.android.com/guide/components/activities/intro-activities
 
