@@ -1,4 +1,4 @@
-## Android Studio配置（1）插件、字体、代理设置
+## Android Studio配置(1)插件、字体、代理设置
 
 ### 一、 插件
 
