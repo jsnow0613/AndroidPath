@@ -11,7 +11,7 @@
 
 |      类型       | 内容                                                         |       备注       |
 | :-------------: | :----------------------------------------------------------- | :--------------: |
-| Android Studio  | 1.[安装后简单设置](.article/Android Studio/Android Studio配置（1）插件、字体、代理设置.md)<br />2.快捷键<br />3.[注释模板设置](.article/Android Studio/Android Studio配置（2）注释模板.md)<br />4.[代码模板](.article/Android Studio/Android Studio配置（3）代码模板.md) |                  |
+| Android Studio  | 1.[安装后简单设置](./article/AndroidStudio/Android Studio配置(1)插件、字体、代理设置.md)<br />2.快捷键<br />3.[注释模板设置](./article/AndroidStudio/Android Studio配置(2)注释模板.md)<br />4.[代码模板](./article/AndroidStudio/Android Studio配置（3）代码模板.md) |                  |
 |    四大组件     | 1.[Activity](./article/四大组件/Activity/Activity的知识总结.md)<br />2.Service<br />3.BroadcastReceiver<br />4.ContentProvider |                  |
 |      控件       | 1.简单控件<br />2.Dialog<br />3.PopWindow<br />4.Notification<br />5.RecycleView<br />6.ViewPager2<br />7.WebView<br />8.[Fragment](./article/UI/Fragment/Fragment.md) |                  |
 |      动画       |                                                              |                  |

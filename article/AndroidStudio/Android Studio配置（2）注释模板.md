@@ -1,4 +1,4 @@
-# Android Studio配置（2）注释模板
+# Android Studio配置(2)注释模板
 
 
 
